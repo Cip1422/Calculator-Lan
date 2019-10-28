@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case EXPONENT:
-                Math.pow(firstValue,secondValue);
+                answerValue = (float)Math.pow(firstValue,secondValue);
                 break;
 
 
